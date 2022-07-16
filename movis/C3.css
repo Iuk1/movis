@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+body{
+	background: #47597E;
+	background-size: cover;
+	height: 100vh;
+	background-position: center;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+	box-shadow: 0 0 10px #000;
+	background: rgba(113, 125, 126, 0.35);
+}
+#chk1{
+	display:none;
+}
+
+i{
+	color: #fff;
+	cursor: pointer;
+}
+
+.header .logo{
+	flex: 1;
+	color: #fff;
+	margin-left: 45px;
+	text-transform: uppercase;
+}
+#logo{
+	text-decoration: none;
+	color: orange;
+}
+.header .search-box{
+	flex: 1;
+	position: relative;
+}
+
+.search-box input{
+	width: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	background: #f2f2e3;
+	border-radius: 30px;
+	color: gray;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.header ul{
+	flex: 2.25;
+	display: flex;
+	justify-content: space-evenly;
+}
+.header ul li{
+	list-style: none;
+}
+
+.header ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 10px 15px;
+}
+/*==================================================*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	width: 100%;
+  }
+  
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img {
+    width: 300px;
+
+}
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .card img{
+	 width: 250px;
+	 height: 300px;  	  
+  }
+	  
+.card h3{
+	margin-top: 10px;
+	
+}
+
+.btn-book{
+	margin-top: 10px;
+	margin-left: 220px;
+	width: 60px;
+	height: 30px;
+	font-size: 16px;
+	background-color: blue;
+	color: white;
+
+
+}
+	
+	
+
+	
